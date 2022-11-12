@@ -1,0 +1,52 @@
+body {
+	background-color: #1A1A1D;
+}
+form {
+	display: table;
+	padding-top: 20px;
+}
+div {
+	display: table-row;
+	line-height: 40px;
+}
+label, input {
+	display: table-cell;
+	font-size: 14pt;
+}
+label {
+	font-size: 14pt;
+	padding-right: 50px;
+	color: #4E4E50;
+	font-weight: bold;
+}
+input {
+	border-radius: 5px;
+}
+input[name='name'] {
+	width: 280px;
+}
+input[name='country'] {
+	width: 200px;
+}
+input[name='releaseDate'] {
+	width: 300px;
+}
+input[type=checkbox] {
+	transform: scale(1.5);
+	color: white;
+	background: linear-gradient(90deg, rgba(111,34,50,1) 0%, rgba(133,19,58,1) 47%, rgba(195,7,63,1) 100%);
+}
+a {
+	font-size: 14pt;
+	color: white;
+	text-decoration: underline #C3073F;
+}
+a:hover {
+	color: #C3073F;
+}
+.clr {
+	color: white;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 5px;
+}

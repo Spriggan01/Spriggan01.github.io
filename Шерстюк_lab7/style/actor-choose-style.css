@@ -1,0 +1,29 @@
+form[name='actor-form'], form[name='actor-form'] input, form[name='actor-form'] select {
+	font-size: 13pt;
+}
+select[name='actor'] {
+	margin: 0px 10px 0px 10px;
+}
+select[name='actor'], input[type='submit'] {
+	border-radius: 3px;
+}
+select[name='actor'] {
+	width: 350px;
+}
+form[name='actor-form'] input[type='submit'] {
+	width: 70px;
+}
+form[name='actor-form'] a {
+	font-size: 14pt;
+	color: darkred;
+	text-decoration: none;
+	border: 1px darkred solid;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 5px;
+}
+form[name='actor-form'] a:hover {
+	color: crimson;
+	font-weight: bold;
+	border: 2px crimson solid;
+}

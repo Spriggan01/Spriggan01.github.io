@@ -1,0 +1,75 @@
+body {
+	background-color: #1A1A1D;
+}
+span {
+	background: linear-gradient(90deg, rgba(111,34,50,1) 0%, rgba(149,7,64,1) 26%, rgba(195,7,63,1) 52%, rgba(133,19,58,1) 81%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-weight:bold;
+}
+td, th {
+	border: solid 1px black;
+	font-color: #1A1A1D;
+}
+th {
+	background-color: #6F2232;
+	//background-color: #8B0000;
+	font-weight: bold;
+}
+header {
+	margin-bottom: 40px;
+}
+a {
+	color: #C3073F;
+}
+a:hover {
+	color: #950740;
+}
+form[name='film-filter'] {
+	margin: 7px 0px 7px 0px;
+	color: #4E4E50;
+}
+input[name='film_name_filter'] {
+	width: 150px;
+}
+div.control a {
+	font-size: 12pt;
+	color: #6F2232;
+	text-decoration: none;
+	border: 1px #6F2232 solid;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 5px;
+}
+div.control a:hover {
+	color: #950740;
+	font-weight: bold;
+	border: 2px #950740 solid;
+}
+div.control {
+	margin-bottom: 20px;
+}
+label {
+	color: white;
+	text-decoration: underline #C3073F;
+	font-family: Courier New;
+}
+div.user-info {
+	text-align: right;
+	font-size: 15pt;
+	//margin-bottom: 100px;
+	padding-top: 10px;
+	padding-left: 50px;
+	color: #4E4E50;
+}
+div.user-info a {
+	color: #6F2232;
+	margin-left: 20px;
+}
+div.user-info a:hover {
+	color: #950740;
+	text-weight: bold;
+}
+h1, h2, h3 {
+	color: white;
+}

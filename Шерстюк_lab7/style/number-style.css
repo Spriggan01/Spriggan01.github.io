@@ -1,0 +1,15 @@
+tr.even {
+	text-align: center;
+	background-color: #950740;
+}
+tr.odd {
+	text-align: center;
+	background-color: #C3073F;
+}
+a {
+	color: white;
+	text-decoration: line-through #C3073F;
+}
+a:hover {
+	color: #8B0000;
+}
