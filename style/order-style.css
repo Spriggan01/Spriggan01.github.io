@@ -1,0 +1,400 @@
+a {
+    font-size:24px;
+    font-weight:700;
+    font-family: Inter;
+}
+
+p, .tabs_btn {
+    font-size: 24px;
+    font-family: Roboto;
+    border: none;
+}
+
+.main-txt {
+    font-family: Roboto-b;
+    font-size: 35px;
+}
+
+h1 {
+    font-family: Roboto-b;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+header {
+    background-color: #f4f1f1;
+}
+
+.txt {
+    font-family: Roboto-b;
+}
+
+footer {
+    background-color: #d9d9d9;
+    font-family: Inter;
+}
+
+.footer-txt {
+    color: #000;
+    font-size: 20px;
+}
+
+.superNav {
+    font-size:13px;
+}
+
+.form-control {
+    outline:none !important;
+    box-shadow: none !important;
+}
+/******************/
+/* mediaScreenOpt */
+/******************/
+@media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+
+    .smth {
+        width: 350px;
+        height: 350px;
+    }
+
+    .footer-txt {
+        font-size: 14px;
+    }
+
+    .footer-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    input[type="text"]:focus:hover {
+        width: 25px;
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+    }
+}
+/***************/
+/* NavBarItems */
+/***************/
+/***** Sliders *****/
+.dropdown-item { 
+    width: max-content !important;
+}
+
+.sliders-menu {
+    width: 500px;
+    background-color: #d9d9d9;
+}
+
+.sliders {
+    background-color: #d9d9d9;
+}
+
+.dropdown-menu p {
+    font-family: Roboto-b;
+}
+
+input[type="checkbox"] {
+    padding-bottom: 15px;
+}
+
+.items-mem {
+    padding-bottom: 10px;
+    column-count: 2;
+    max-width: 150px;
+    width: 100%;
+}
+
+.items-diagonal {
+    column-count: 3;
+    max-width: 200px;
+    width: 100%;
+}
+
+.items-camera {
+    padding-bottom: 10px;
+    column-count: 1;
+    max-width: 163px;
+    width: 100%;
+}
+
+.items-manufacturer {
+    padding-bottom: 10px;
+    column-count: 2;
+    max-width: 200px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.btn {
+    align-self: flex-end
+}
+/***** ColorOfPhones *****/
+.color-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+#bl1 {
+    background-color: #FFFFFF;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border: 1px solid #DDD6D6;
+}
+
+#bl2 {
+    background-color: #696969;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#bl3 {
+    background-color: #000;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#bl4 {
+    background-color: #8B0000;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#bl5 {
+    background-color: #FF4500;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#bl6 {
+    background-color: #FFD700;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#bl7 {
+    background-color: #008000;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#bl8 {
+    background-color: #00008B;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#bl9 {
+    background-color: #4B0082;
+    width: 32px;
+    height: 32px;
+}
+/***** CountriesBox *****/
+select {
+    background-color: #f4f1f1;
+}
+.box {
+    font-family: Inter;
+    width: 225px;
+    height: 30px;
+    border: none;
+    font-size: 18px;
+    color: #555;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.block {
+    width: 300px;
+    height: 350px;
+    background: linear-gradient(to top, #F4F1F1 25%, #D9D9D9 25% 50%, #D9D9D9 50% 75%);
+}
+/*******************/
+/* Reg-, log- form */
+/*******************/
+.hidden {
+    display: none;
+}
+
+form {
+    font-family: Inter;
+    padding: 20px;
+    background-color: white;
+    max-width: 320px;
+}
+.form-group {
+    background-color: #EDEBEB;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+.input {
+    background-color: #EDEBEB;
+    width: 350px;
+    height: 30px;
+    border: none;
+}
+
+.popup1 {
+    font-size: 14px;
+}
+
+.logIn {
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #15C37C;
+    font-size: 14px;
+    color: white;
+    border: none;
+}
+
+.logIn-text {
+    font-family: Inter-b;
+    font-size: 18px;
+}
+
+.logIn-txt {
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.google {
+    background-color: #FFFFFF;
+    width: 200px;
+}
+
+.btn-text {
+    font-family: Inter;
+    font-size: 14px;
+}
+/***/
+.img-for-ordel {
+    width: 200px;
+    height: 200px;
+}
+/******************/
+/* ProfileOptions */
+/******************/
+.tabs_style {
+    background-color: #f4f1f1;
+    border: none;
+}
+
+.profile-bg {
+    background-image: url(images/profile/profile-bg.jpg);
+    height: 150px;
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+.user_photo {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.edit_profile-item {
+    color: #000;
+    background-color: #d9d9d9;
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+.edit_profile-item:focus {
+    color: #000;
+}
+
+.edit_profile-item:active {
+    color: #000;
+}
+
+.edit_profile-item:hover {
+    color: #000;
+}
+
+.sub-edit_menu {
+    color: #000;
+    background-color: #d9d9d9;
+    display: none;
+    height: 400px;
+} 
+
+.edit_profile-item:focus ~ .sub-edit_menu, 
+.edit_profile-item:active ~ .sub-edit_menu, 
+.sub-edit_menu:hover { 
+    display: block; 
+}
+/*******************/
+/* Phone-block opt */
+/*******************/
+.block {
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(244,241,241,1) 25%, rgba(217,217,217,1) 75%);
+    display: inline-block;
+}
+
+.btn-phone-more {
+    border: none;
+    border-radius: 15px;
+
+}
+
+.btn-phone-buy {
+    border: 1px solid #EAE7E7;
+    border-radius: 20px;
+    background-color: #EAE7E7;
+}
+
+.phone-txt {
+    font-family: Roboto-b;
+    font-size: 25px;
+}
+
+.img-for-ph {
+    width: 300px;
+    height: 450px;
+}
+/*********/
+/* Fonts */
+/*********/
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: Inter-b;
+    src: url(fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-b;
+    src: url(fonts/Roboto-Bold.ttf);
+}
